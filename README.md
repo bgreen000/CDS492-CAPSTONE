@@ -20,5 +20,19 @@ optimal outcomes.
 
 WHAT YOU'LL NEED
 
-This analysis will be conducted using R and the files contained in FILES. All will need to be
-installed/downloaded. 
+This analysis will be conducted using R and two datasets containing information on global suicide 
+rates and human freedom index scores. 
+
+To obtain the global suicide dataset:
+1. Visit https://ourworldindata.org/suicide
+2. Scroll down to "Key insightes on suicide data & research." On the right, there is a graph with a download
+option. 
+3. Click download and then select "Full data (CSV)."  
+
+
+To obtain the global human freedom index data:
+1. Visit https://www.cato.org/human-freedom-index/2022.
+2. Download the xlsx version of the data. It is located at the top of the box on the left
+
+
+
