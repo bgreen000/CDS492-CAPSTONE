@@ -24,15 +24,26 @@ This analysis will be conducted using R and two datasets containing information 
 rates and human freedom index scores. 
 
 To obtain the global suicide dataset:
-1. Visit https://ourworldindata.org/suicide
-2. Scroll down to "Key insightes on suicide data & research." On the right, there is a graph with a download
-option. 
-3. Click download and then select "Full data (CSV)."  
+1. Visit https://data.oecd.org/healthstat/suicide-rates.htm
+2. A chart should appear. Unselect 'latest data available' and 
+manually adjust the year bands to 2010-2020.
+3. At the top of the chart, select download and choose the 'selected data only' option.  
+4. This file MUST be renamed to 'SUICIDES'  
 
 
 To obtain the global human freedom index data:
 1. Visit https://www.cato.org/human-freedom-index/2022.
 2. Download the xlsx version of the data. It is located at the top of the box on the left
+3. 4. This file MUST be renamed to 'HFINDEX'  
+
+Move both datasets to your Downloads folder. 
+
+To ensure these datasets succesfully appear and function in the code within Capston_Analysis.R, ensure both files are
+1. Saved in .xlsx format. 
+2. Named correctly as previously specified. 
+3. Located in the Downloads folder. 
+
+
 
 
 
