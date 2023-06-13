@@ -20,8 +20,8 @@ optimal outcomes.
 
 WHAT YOU'LL NEED
 
-This analysis will be conducted using R and two datasets containing information on global suicide 
-rates and human freedom index scores. 
+This analysis will be conducted using R and three datasets containing information on global suicide 
+rates, human freedom index scores, and divorce rates. 
 
 To obtain the global suicide dataset:
 1. Visit https://data.oecd.org/healthstat/suicide-rates.htm
@@ -36,7 +36,14 @@ To obtain the global human freedom index data:
 2. Download the xlsx version of the data. It is located at the top of the box on the left
 3. 4. This file MUST be renamed to 'HFINDEX'  
 
-Move both datasets to your Downloads folder. 
+
+To obtain the global divorce rates data:
+1. Visit https://ourworldindata.org/marriages-and-divorces.
+2. Scroll down to 'Divorces'. There will be a graph on the right.
+3. Set the time bands to 2010-2018 and Download the xlsx version of the data. 
+4. Name the dataset DIVORCE_RATE
+
+Move all three datasets to your Downloads folder. 
 
 To ensure these datasets succesfully appear and function in the code within Capston_Analysis.R, ensure both files are
 1. Saved in .xlsx format. 
